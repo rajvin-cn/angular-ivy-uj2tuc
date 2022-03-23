@@ -1,0 +1,29 @@
+<p>
+emp-list works!
+</p>
+
+<h2>List of Employees</h2>
+ 
+<table class='table'>
+  <thead>
+    <tr>
+      
+      <th>Name</th>
+      <th>Id</th>
+      <th>Location</th>
+     
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let emp of Employees;">
+      
+      <td>{{emp.name}}</td>
+      <td>{{emp.id}}</td>
+      <td>{{emp.location}}</td>
+      
+    
+    
+    </tr>
+  </tbody>
+</table>
